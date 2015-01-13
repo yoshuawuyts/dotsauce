@@ -2,7 +2,9 @@
 
 configure_keyboard() {
   # Set a blazingly fast keyboard repeat rate
-  defaults write NSGlobalDomain KeyRepeat -int 0
+  defaults write NSGlobalDomain KeyRepeat -int 0;
+  # Disable autocorrect
+  defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 }
 
 configure_trackpad() {
