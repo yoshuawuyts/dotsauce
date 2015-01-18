@@ -1,12 +1,12 @@
 main() {
-  ln -s $(pwd)/lib/.atom ~/.atom
-  ln -s $(pwd)/lib/.aliases ~/.aliases
-  ln -s $(pwd)/lib/.bash_profile ~/.bash_profile
-  ln -s $(pwd)/lib/.bashrc ~/.bashrc
-  ln -s $(pwd)/lib/.exports ~/.exports
-  ln -s $(pwd)/lib/.gitconfig ~/.gitconfig
-  ln -s $(pwd)/lib/.vimrc ~/.vimrc
-  ln -s $(pwd)/lib/.zshrc ~/.zshrc
+  ln -s ~/src/yw/dotfiles/.atom ~/.atom
+  ln -s ~/src/yw/dotfiles/.aliases.sh ~/.aliases.sh
+  ln -s ~/src/yw/dotfiles/.bash_profile ~/.bash_profile
+  ln -s ~/src/yw/dotfiles/.bashrc ~/.bashrc
+  ln -s ~/src/yw/dotfiles/.exports.sh ~/.exports.sh
+  ln -s ~/src/yw/dotfiles/.gitconfig ~/.gitconfig
+  ln -s ~/src/yw/dotfiles/.vimrc ~/.vimrc
+  ln -s ~/src/yw/dotfiles/.zshrc ~/.zshrc
 }
 
 main
