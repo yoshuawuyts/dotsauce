@@ -828,13 +828,13 @@
 	<key>HideActivityIndicator</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
-	<true/>
-	<key>HideScrollbar</key>
 	<false/>
+	<key>HideScrollbar</key>
+	<true/>
 	<key>HideTab</key>
 	<false/>
 	<key>HighlightTabLabels</key>
-	<false/>
+	<true/>
 	<key>HotKeyBookmark</key>
 	<string>F8556FC9-E6BB-45CB-9495-2CE715FDA9E2</string>
 	<key>HotKeyTogglesWindow</key>
@@ -862,9 +862,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Repositories/yoshua/dotfiles/setup</string>
-	<key>NSNavPanelMediaBrowserTypeForOpenModeKey</key>
-	<integer>0</integer>
+	<string>~/Documents</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -889,9 +887,11 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>356 174 924 485 0 0 1280 777 </string>
+	<string>269 124 924 485 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>4 0 1270 777 0 0 1280 777 </string>
+	<string>770 4 508 384 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>4 0 1276 777 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1120,7 +1120,7 @@
 			<key>Disable Smcup Rmcup</key>
 			<false/>
 			<key>Disable Window Resizing</key>
-			<false/>
+			<true/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -1620,8 +1620,6 @@
 			<string>/Users/yoshuawuyts</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1670,7 +1668,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/yoshuawuyts/Repositories/yoshua/dotfiles/setup</string>
+	<string>/Users/yoshuawuyts/src/yw/dotsauce/setup</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -1679,8 +1677,6 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
@@ -1688,7 +1684,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-01-05T19:28:35Z</date>
+	<date>2015-01-19T00:48:59Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1696,7 +1692,7 @@
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SmartPlacement</key>
-	<true/>
+	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.10000000149011612</real>
 	<key>SwitchTabModifier</key>
