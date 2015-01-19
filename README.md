@@ -26,6 +26,7 @@ Commands:
 - [mathiasbynens/dotfiles][mathias]
 - [kevensuttle/osxdefaults][osx]
 - [yoshuawuyts/dotfiles][dyw]
+- [pengwynn/dotfiles](https://github.com/pengwynn/dotfiles)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
