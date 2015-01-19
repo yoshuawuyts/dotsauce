@@ -5,6 +5,7 @@ main() {
   unlink ~/.bashrc
   unlink ~/.exports.sh
   unlink ~/.gitconfig
+  unlink ~/.vim
   unlink ~/.vimrc
   unlink ~/.zshrc
 }

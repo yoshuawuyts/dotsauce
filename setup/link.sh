@@ -5,6 +5,7 @@ main() {
   ln -s ~/src/yw/dotfiles/.bashrc ~/.bashrc
   ln -s ~/src/yw/dotfiles/.exports.sh ~/.exports.sh
   ln -s ~/src/yw/dotfiles/.gitconfig ~/.gitconfig
+  ln -s ~/src/yw/dotfiles/.vim ~/.vim
   ln -s ~/src/yw/dotfiles/.vimrc ~/.vimrc
   ln -s ~/src/yw/dotfiles/.zshrc ~/.zshrc
 }
