@@ -8,6 +8,7 @@ main() {
   ln -s ~/src/yw/dotfiles/.vim ~/.vim
   ln -s ~/src/yw/dotfiles/.vimrc ~/.vimrc
   ln -s ~/src/yw/dotfiles/.zshrc ~/.zshrc
+  ln -s ~/src/yw/dotfiles/.tmux.conf ~/.tmux.conf
 }
 
 main

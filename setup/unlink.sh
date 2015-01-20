@@ -8,6 +8,7 @@ main() {
   unlink ~/.vim
   unlink ~/.vimrc
   unlink ~/.zshrc
+  unlink ~/.tmux.conf
 }
 
 main
